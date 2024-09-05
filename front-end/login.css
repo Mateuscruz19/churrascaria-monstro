@@ -1,0 +1,78 @@
+/* Geral */
+body {
+    background-color: #f8f4f2; /* Cor de fundo clara para um ambiente acolhedor */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container do formulário */
+.container {
+    background-color: #f8f4f2;
+}
+
+.login-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Títulos */
+h2 {
+    color: #b36f6f; /* Cor vermelho escuro para os títulos */
+}
+
+/* Labels e campos de entrada */
+.form-label {
+    color: #b36f6f; /* Cor vermelha para labels */
+}
+
+.form-control {
+    border: 1px solid #b36f6f; /* Borda vermelha para campos de entrada */
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    border-color: #d44d4d; /* Borda vermelha escura quando o campo está em foco */
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+}
+
+/* Botão de login */
+.btn-primary {
+    background-color: #d44d4d; /* Vermelho escuro */
+    border-color: #d44d4d;
+}
+
+.btn-primary:hover {
+    background-color: #b36f6f; /* Vermelho mais claro quando o botão é hover */
+    border-color: #b36f6f;
+}
+
+/* Mensagens de erro */
+.error-label {
+    color: #d44d4d; /* Vermelho para mensagens de erro */
+    display: block;
+    margin-top: 10px;
+}
+
+/* Link de navegação */
+.btn-outline-primary {
+    color: #b36f6f;
+    border-color: #b36f6f;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #b36f6f;
+    border-color: #b36f6f;
+}
+
+/* Checkbox */
+.form-check-label {
+    color: #b36f6f;
+}
+
+.form-check-input {
+    margin-right: 10px;
+}
